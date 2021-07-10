@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 371px;
+    padding: 0 5px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color: #b3cde0;
+    font-weight: 100;
+    box-shadow: 0px 0px 50px 0px #274684;
+    background: #011f4b;
+    overflow: hidden;
+}
+.card button {
+    color: white;
+    border-radius: 50px;
+    margin: 15px;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+    border: none;
+    background-color:#4fb185;
+    align-items: center;
+    padding:3px;
+}
+.card p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card button span{
+    font-size: 12px;
+    text-align: center;
+    padding:10px;
+}
+
+
+
